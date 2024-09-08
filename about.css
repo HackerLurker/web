@@ -1,0 +1,537 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.nav{
+    margin-left: 88%;
+    
+}
+.about{
+    display: flex;
+}
+.txt{
+    padding-top: 50px;
+}
+.name{
+    color: aliceblue;
+    margin-left: 20px;
+}
+.iwantmoreflex{
+    display: flex;
+}
+.aboutText{
+    margin-left: 90px;
+    font-family: bufalino, sans-serif;
+font-style: normal;
+font-weight: 400;
+        
+}
+h4 {
+    color: rgb(152, 152, 152);
+    margin-left: 270px;
+    font-family: 'Poppins', sans-serif;
+    animation-name: FADE;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+
+.copyright{
+  display: flex;
+  margin-top: 200px;
+  margin-left: 500px;
+}
+.origin{
+  font-size: small;
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+h3{
+    color: rgba(218, 217, 217, 0.884);
+    width: 530px;
+    margin-left:180px;
+    line-height: 2.52rem;
+    font-size: 24px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation-name: FADE;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+
+img{
+    width: 190px;
+    height: 190px;
+    border-radius: 200px;
+    margin-left: 30px;
+    border: 4px solid antiquewhite;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: antiquewhite;
+    font-size: x-small;
+}
+h1 {
+    color: rgb(148, 148, 148);
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width:1px ;
+    animation-name: slidedown;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+.why{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    margin-left: 500px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width:1px ;
+    animation-name: FADE;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+.whyj{
+        color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    margin-left: 400px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width:1px ;
+    animation-name: FADE;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+.sub-heading{
+    font-size: 30px;
+    font-family: quasimoda, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-left: 400px;
+}
+.sub-heading-t{
+    font-size: 30px;
+    font-family: quasimoda, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-left: 400px;
+}
+p{
+    color: rgb(255, 255, 255);
+    margin-left: 404px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-family: mr-eaves-modern, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+.kl{
+    margin-top: 0px;
+}
+a:hover{
+    transition: 0.8s ease-out ;
+}
+.scroll-watcher-div{
+    margin-top: 70px;
+    width: 80px;
+    height: 940px;
+    margin-left: 20px;
+}
+
+.scroll-watcher{
+    width: 90px;
+    height: 70px;
+    border: 1px solid rgb(96, 96, 96);
+    margin: 4px;
+    margin-left: -10px;
+    margin-top: 100px;
+    position: absolute;
+    border-radius: 5px;
+    animation-name: FADE;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+}
+.cursor{
+    position: fixed;
+    pointer-events: none;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.1s;
+    mix-blend-mode: difference;
+    z-index: 1000;
+  }
+  .mk{
+    display: flex;
+  }
+h2{
+    color: rgb(143, 143, 143);
+    font-size: 5px;
+    line-height: 0.85rem;
+    animation-name: FADE;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+.desc{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 2.6rem;
+    width: 530px;
+    margin-left: 366px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation-name: FADE;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+.difer{
+    color: rgb(255, 255, 255);
+    font-size: 5px;
+    line-height: 0.85rem;
+    margin-left: 19px;
+    animation-name: FADE;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+.diferr{
+    color: rgb(255, 255, 255);
+    font-size: 5px;
+    line-height: 0.85rem;
+    margin-left: 12px;
+    animation-name: FADE;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+.difersmall{
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.diferagain{
+    color: white;
+    margin-top: 0px;
+}
+@keyframes slidedown{
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes slideLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes slideup{
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes FADE {
+    from{
+       opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 1070px) {
+    .nav{
+        margin-left: 70%;
+    }
+}
+@media (max-width: 1040px) {
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        margin-left: 136px;
+    }
+    .copyright{
+      margin-left: 310px;
+  }
+}
+
+
+@media (max-width: 935px) {
+  .about{
+    display: block;
+  }
+  .mk{
+    display: flex;
+    margin-left: 50px;
+  }
+  .scroll-watcher{
+    opacity: 0;
+    width: 0;
+  }
+  .scroll-watcher-div{
+    opacity: 0;
+    width: 0;
+  }
+  img {
+    margin-left: 300px;
+  }
+  h3 {
+    margin-left: 52px;
+  }
+  .why{
+    margin-left: 250px;
+  }
+  .desc{
+    margin-left: 150px;
+  }
+  .whyj{
+    margin-left: 170px;
+  }
+  .sub-heading{
+    margin-left: 170px;
+  }
+  .sub-heading-t{
+    margin-left: 170px;
+  }
+  .kl{
+    margin-left: 170px;
+  }
+  .copyright{
+    margin-left: 310px;
+}
+}
+
+
+
+
+
+
+
+
+@media (max-width:750px) {
+    img {
+        width: 140px;
+        height: 140px;
+        margin-left: 210px;
+      }
+      h3 {
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 0px;
+      }
+      .why{
+        margin-left: 25px;
+      }
+      .desc{
+        margin-left: 25px;
+      }
+      .whyj{
+        margin-left: 25px;
+      }
+      .sub-heading{
+        margin-left: 25px;
+      }
+      .sub-heading-t{
+        margin-left: 25px;
+      }
+      .kl{
+        margin-left: 25px;
+      }
+      h1 {
+        font-size: 40px;
+        margin-left: 75px;
+      }
+      h4 {
+        margin-left: 135px;
+      }
+      .mk{
+        display: block;
+      }
+      .name{
+        opacity: 0;
+      }
+      .aboutText{
+        margin-left: 0;
+      }
+      .copyright{
+        margin-left: 180px;
+    }
+}
+
+
+
+@media (max-width: 550px) {
+  h3 {
+    margin-left: 20px;
+    font-size: 20px;
+    width: 440px;
+  }
+  h1 {
+    font-size: 40px;
+    margin-left: 25px;
+  }
+  h4 {
+    margin-left: 95px;
+  }
+  img {
+    margin-left: 175px;
+  }
+  .why{
+   font-size: 46px;
+  }
+  .desc{
+    font-size: 20px;
+    width: 400px;
+  }
+  .whyj{
+    font-size: 46px;
+  }s
+  .kl{
+    font-size: 46px;
+  }
+  .copyright{
+    margin-left: 110px;
+}
+
+}
+
+
+@media (max-width: 430px) {
+  .nav{
+    margin-left: 270px;
+  }
+  h1 {
+    font-size: 30px;
+    margin-left: 25px;
+  }
+  h4 {
+    margin-left: 50px;
+  }
+  img {
+    margin-left: 120px;
+  }
+  a {
+    font-size: xx-small;
+  }
+  h3 {
+    margin-left: 10px;
+    font-size: 15x;
+    width: 369px;
+  }
+  .copyright{
+    margin-left: 75px;
+}
+.whyj{
+  font-size: 40px;
+}
+}
+
+
+@media (max-width: 390px) {
+  .nav{
+    display: flex;
+    margin-left: -20px;
+  }
+  h3 {
+    width: 330px;
+  }
+  .desc{
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    width: 320px;
+  }
+  img {
+    margin-left: 110px;
+  }
+  h1 {
+    margin-left: 13px;
+  }
+  h4{
+    margin-left: 40px;
+  }
+  .desc{
+    width: 300px;
+  }
+  .kl{
+    width: 250px;
+  }
+  .whyj{
+    font-size: 37px ;
+  }
+}
+
+@media (max-width: 360px) {
+  .nav{
+    margin-left:100px;
+    margin-bottom: 20px;
+  }
+  .mk{
+    margin-left: 20px;
+  }
+  img{
+    margin-left: 90px;
+  }
+  h3 {
+    margin-left: 6px;
+    font-size: 15x;
+    width: 300px;
+  }
+  .whyj{
+    font-size: 35px;
+  }
+  .desc{
+    width: 300px;
+  }
+} 
+
+

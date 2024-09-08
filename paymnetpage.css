@@ -1,0 +1,130 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: #ffffff;
+    margin-top: 39px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+h2{
+    color: #ffffff;
+}
+
+
+li{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.info{
+    display: flex;
+}
+
+
+.ex-info{
+    text-align: center;
+}
+
+ul{
+    margin-left: 30px;
+}
+
+
+.back-link{
+    margin-left: 1px;
+}
+
+img{
+    scale: 0.5;
+}
+
+p, h2 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+
+
+/* RESPONSIVE SIDEEAGINN */
+
+
+@media (max-width: 414px) {
+    .steps{
+        font-size: 40px;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+    .move{
+        margin-left: 30px;
+    }
+    .info{
+        margin-right: 70px;
+    }
+    h3 {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 399px) {
+
+    h3 {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    h3 {
+        font-size: 11px;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    h3 {
+        font-size: 11px;
+    }
+    .info{
+        margin-right: 55px;
+    }
+    .steps{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    h3 {
+        font-size: 11px;
+    }
+    .info{
+        margin-right: 35px;
+    }
+    .steps{
+        margin-left: 6px;
+    }
+}

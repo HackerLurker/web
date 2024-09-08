@@ -1,0 +1,52 @@
+body {
+    background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+margin-left: 20px;
+border-bottom: 1px solid antiquewhite;
+color: antiquewhite;
+font-size: x-small;
+}
+
+.ds{
+    margin-top: 10px;
+}
+
+
+body::-webkit-scrollbar{
+    display: none;
+}
+.copyright{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 500px;
+    color: white;
+}
+.origin{
+    font-size: small;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 500px) {
+    .copyright{
+        margin-left: 113px;
+    }
+    .bookSession{
+        margin-bottom: 20px;
+    }
+    }
+
+    @media (max-width: 360px) {
+        .copyright{
+            margin-left: 50px;
+        }
+        .bookSession{
+            margin-bottom: 20px;
+        }
+        }

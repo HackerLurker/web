@@ -1,0 +1,1119 @@
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.moven{
+    display: flex;
+}
+
+.copyright{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 500px;
+    color: #ffffff;
+}
+.origin{
+    font-size: small;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+body::-webkit-scrollbar{
+    display: none;
+}
+input{
+    background-color: #000000;
+    border: px solid #ffffff;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: 'mono space', monospace;
+    width: 500px;
+    height: 30px;
+    margin-left: 350px;
+}
+.ScndQuote{
+    background-color: #faf8e6;
+    width: auto;
+    height: 200px;
+    display: flex;
+}
+.not2{
+    margin-top: 40px;
+    font-size: 90px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width:2px ;
+    animation-name: FADE;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+.notDiff{
+    margin-top: 40px;
+    color: #222121;
+    font-size: 90px;
+    animation-name: FADE;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+.top-nav {
+    margin-top: 0px;
+    height: 40px;
+    width: 100%;
+   border-bottom: 1px solid antiquewhite;
+}
+.booking{
+    width: 100vw;
+    height: 150px;
+    background-color: #faf8e6;
+    display: flex;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 600;
+}
+.carrer{
+    background-color: #faf8e6;
+    width: 99vw;
+    height: 300px;
+}
+.Right{
+    display: flex;
+    margin-left: 35%;
+    margin-right: 50px;
+    margin-top: 15px;
+    width: 400px;
+  
+}
+h1{
+    color: aliceblue;
+}
+a {
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: Medium 500;
+    color: antiquewhite;
+    font-size: x-small;
+    text-decoration: none;
+
+}
+.book1{
+    align-self: center;
+    justify-self: center;
+    font-size: 12px;
+    margin-left: 40px;
+    color: #000000;
+    font-family: futura-pt, sans-serif;
+font-style: normal;
+}
+.book2{
+    align-self: center;
+    justify-self: center;
+    font-size: 12px;
+    margin-left: 50px;
+    color: #000000;
+    font-family: futura-pt, sans-serif;
+font-style: normal;
+}
+.book3{
+    font-size: 14px;
+    margin-left: 60px;
+    color: #000000;
+        font-family: futura-pt, sans-serif;
+    font-style: normal;
+}
+.book4{
+    align-self: center;
+    justify-self: center;
+    font-size: 12px;
+    margin-left: 40px;
+    color: #000000;
+    font-family: futura-pt, sans-serif;
+font-style: normal;
+}
+.LAN{
+    margin-top: 500px ;
+    margin-left: 335px;
+    color: #4a4a4a;
+    margin: 20px;
+}
+.bigger{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 70px;
+    
+}
+
+.frst{
+    display: flex;
+    margin: 30px;
+    margin-right: 130px;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+.scnd{
+    display: flex;
+    margin: 30px;
+    margin-left: 150px;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+.thrd{
+    display: flex;
+    margin: 30px;
+    margin-right: 150px;
+    animation-name: slideLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.fa-handshake-angle:hover{
+    cursor: pointer;
+    scale: 1.3;
+    transition: 0.4s ease;
+}
+.fa-chalkboard-user:hover{
+    cursor: pointer;
+    scale: 1.3;
+    transition: 0.4s ease;
+}
+.fa-book:hover{
+    cursor: pointer;
+    scale: 1.3;
+    transition: 0.4s ease;
+}
+.frth{
+    display: flex;
+    margin: 40px;
+    margin-left: 280px;
+    animation-name: slideRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+.diif{
+    color: white;
+}
+.not{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width:2px ;
+}
+.diifL{
+    font-size: 30px;
+    margin-left: 4px;
+    animation-name: slideup;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+.diifLd{
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+.qut{
+    display: flex;
+    color: #4a4a4a;
+}
+.cursor{
+    position: fixed;
+    pointer-events: none;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.1s;
+    mix-blend-mode: difference;
+    z-index: 1000;
+  }
+  .bookCoaching{
+    width: 180px;
+    font-family: grover, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    height: 30px;
+    border: 3px solid black;
+    margin-left: 300px;
+    margin-right: 40px;
+    border-radius: 70px;
+  }
+  .bookCoaching:hover{
+    scale: 1.1;
+    transition: 0.8s ease-in-out;
+  }
+  .bookMasterClass{
+    font-family: grover, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    width: 180px;
+    height: 30px;
+    border: 3px solid black;
+    margin-right: 40px;
+    border-radius: 70px;
+  }
+  .bookMasterClass:hover{
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+  }
+  .bookSession{
+    font-family: grover, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    width: 180px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 70px;
+  }
+  .bookSession:hover{
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+  }
+  .offers{
+    background-color: #faf8e6;
+    width: 100vw;
+    display: flex;
+  }
+  .CoachingOffer{
+    width:500px;
+    height: 130px;
+    background-color: #fff;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+  .MasterClassOffer{
+        width:500px;
+        height: 130px;
+    background-color: #fff;
+    border: 4px solid black;
+        border-radius: 10px;
+        margin-left: 90px;
+        margin-right: 30px;
+
+  }
+  .Session{
+    width:500px;
+    height: 130px;
+    background-color: #fff;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin-left: 330px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+
+  }
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+.fa-solid{
+    margin-left: 200px;
+    margin-top: 20px;
+    
+}
+.ff{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 177px;
+    text-transform: uppercase;   
+}
+.fff{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 155px;
+    text-transform: uppercase;   
+}
+.ffff{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 165px;
+    text-transform: uppercase;   
+}
+.fd{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    line-height: 1.6rem;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: rgb(81, 81, 81);
+    opacity: 0;
+    text-align: center;
+}
+.fdh{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    line-height: 1.6rem;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: rgb(81, 81, 81);
+    opacity: 0;
+    text-align: center;
+}
+.fdj{
+    font-family: "Lobster", sans-serif;
+    font-size: 14px ;
+    line-height: 1.6rem;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color: rgb(81, 81, 81);
+    opacity: 0;
+    text-align: center;
+}
+.fdf{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    color: rgb(81, 81, 81);
+    font-size: medium;
+    text-decoration: underline;
+    font-style: italic;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+.fdf:hover{
+    color: #3100e0;
+}
+.book7{
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    color: #000000;
+    font-family: input-mono, monospace;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    opacity: 0;
+}
+.book8{
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    color: #000000;
+    font-family: input-mono, monospace;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 40px;
+    opacity: 0;
+}
+.book9{
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    color: #000000;
+    font-family: input-mono, monospace;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    opacity: 0;
+}
+.btns{
+    background-color: #000000;
+    border-radius: 10px;
+    color: #fff;
+    font-family: input-mono, monospace;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 40px;
+}
+.book:hover{
+    scale: 1.1;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+.AboutSmall{
+    height: 600px;
+    width: 99vw;
+    display: flex;
+}
+.photoA{
+    width: 600px;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #e4e3e3;
+}
+.phot{
+    font-family: komet, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+}
+.whom{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 30px;
+    line-height: 2rem;
+}
+.textAbout{
+    margin-left: 60px;
+    margin-top: 22px;
+}
+.igmd{
+    border-radius: 20px;
+}
+.socials{
+    width: 99vw;
+    background-color: #faf8e6;
+    height: 250px;
+    color: #000000;
+    margin-top: 100px;
+    line-height: 5rem;
+    font-family: mr-eaves-modern, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: small;
+}
+.email{
+    margin-left: 30px;
+}
+.phoneNum{
+    margin-left: 30px;
+}
+.instagram{
+    margin-left: 30px;
+}
+.facebook{
+    margin-left: 30px;
+}
+.ramaniCarrers{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.email:hover{
+    border-bottom: 1px solid black;
+}
+.phoneNum:hover{
+    border-bottom: 1px solid black;
+}
+.instagram:hover{
+    border-bottom: 1px solid black;
+}
+.facebook:hover{
+    border-bottom: 1px solid black;
+}
+.ramaniCarrers:hover{
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+.reveal{
+    margin-left: 190px;
+    font-family: urbana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #fff;
+    scale: 1.3;
+    border-radius: 6px;
+}
+.reveal:hover{
+    background-color: #a5a5a5;
+    transition: 0.4s ease;
+}
+
+
+
+
+
+
+
+@keyframes slideLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes slideRight {
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes slideup{
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes FADE {
+    from{
+       opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@media  (max-width: 1150px){
+    .not2{
+        font-size: 80px;
+    .notDiff{
+        font-size: 80px;
+    }
+    }
+
+
+
+
+
+
+
+}
+@media  (max-width: 1100px){
+    .not2{
+        font-size: 60px;
+    }
+    .notDiff{
+        font-size: 60px;
+    }
+    .bookCoaching{
+        margin-left: 200px;
+}
+.diifL{
+    font-size: 25px;
+}
+}
+
+
+
+
+
+@media  (max-width: 1000px){
+    .not2{
+        font-size: 50px;
+    }
+    .notDiff{
+        font-size: 50px;
+    }
+    .bookCoaching{
+        margin-left: 100px;
+
+      }
+      .diifL{
+        font-size: 15px;
+    }
+    
+}
+
+
+
+
+@media  (max-width: 900px){
+    .not2{
+        margin-top: 40px;
+        font-size: 40px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width:1px ;
+        animation-name: FADE;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+    }
+    .notDiff{
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .bookCoaching{
+        margin-left: 100px;
+      }
+      .bigger{
+        margin-left: 0px;
+      }
+      .frst{
+        margin-left: 0;
+      }
+      .scnd{
+        margin-left: 80px;
+      }
+      .frth{
+        margin-left: 120px;
+      }
+}
+@media  (max-width: 645px){
+    .not{
+        font-size: 30px;
+        -webkit-text-stroke-width:1px ;
+    }
+    .diif{
+        font-size: 30px;
+        -webkit-text-stroke-width:1px ;
+    }
+    .b{
+        font-size: 9px;
+    }
+    .book1{
+        font-size: 9px;
+        margin-left: 20px;
+    }
+    .booking{
+        display: flex;
+        flex-direction: column;
+    }
+    .bookCoaching, .bookMasterClass, .bookSession{
+        margin-left: 200px;
+        margin-bottom: 20px;
+    }
+}
+@media  (max-width: 620px){
+    .book1{
+        font-size: 7px;
+    }
+    .book2{
+        font-size: 9px;
+    }
+    .book3{
+        font-size: 9px;
+    } 
+    .book1, .book3{
+        font-size: 1px;
+        margin-left: 2px;
+    }
+}
+
+
+
+
+@media  (max-width: 500px){
+    .not2{
+        font-size: 30px;
+    }
+    .notDiff{
+        font-size: 30px;
+    }
+    .booking{
+        display: flex;
+        flex-direction: column;
+    }
+    .bookCoaching{
+        margin-left: 149px;
+        margin-top: 20px;
+        margin-top: 0;
+    }
+      .bookMasterClass{
+        margin-left: 149px;
+        margin-top: 20px;
+
+      }
+      .bookSession{
+        margin-left: 149px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+      }
+      
+
+}
+@media (max-width: 670px) {
+    .book1{
+        font-size: 11px;
+    }
+}
+@media (max-width: 634px) {
+    .book1{
+        font-size: 9px;
+        margin-left: 50px;
+    }
+    .book3{
+        margin-left: 69px;
+        font-size: 9px;
+    }
+    .Right{
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 760px) {
+    .offers{
+        display: flex;
+        flex-direction: column;
+    }
+    .CoachingOffer{
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .MasterClassOffer{
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .Session{
+        margin-left: 120px;
+    }
+}
+
+
+
+@media (max-width: 1190px) {
+    .fd{
+        font-size: 13px;
+    }
+    .fgf{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 1100px) {
+    .fd{
+        font-size: 12px;
+    }
+    .fgf{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 960px) {
+    .fd{
+        font-size: 9px;
+    }
+    .fgf{
+        font-size: 9px;
+        margin-left: 10px;
+    }
+}
+@media (max-width:760px) {
+    .fd{
+        font-size: 16px;
+    }
+    .fgf{
+        font-size: 16px;
+        margin-left: 178px;
+    }
+}
+
+
+
+
+@media (max-width: 500px) {
+.CoachingOffer{
+    margin-left: 0px;
+}
+.MasterClassOffer{
+    margin-left: 0px;
+}
+.Session{
+    margin-left: 0px;
+}
+.copyright{
+    margin-left: 113px;
+}
+.bookSession{
+    margin-bottom: 20px;
+}
+}
+
+
+@media (max-width: 1050px) {
+    .whom{
+        font-size: 13px;
+        line-height: 1.8rem;
+    }
+    .phot{
+        font-size: 30px;
+    }
+}
+@media (max-width: 890px) {
+    .whom{
+        font-size: 11px;
+        line-height: 1.8rem;
+    }
+    .phot{
+        font-size: 24px;
+    }
+}
+@media (max-width: 814px) {
+    .whom{
+  font-size: 8px;
+  line-height: 1.4rem;
+    }
+    .phot{
+        object-fit: contain;
+    }
+    .book4{
+        color: #000000;
+    }
+}
+
+@media (max-width: 714px) {
+    .whom{
+  color: #e4e3e3;
+  line-height: 0;
+    }
+    .phot{
+        object-fit: contain;
+    }
+    .book4{
+        color: #000000;
+        font-size: auto;
+    }
+    .op{
+    opacity: 0;
+    }
+}
+
+@media (max-width: 430px) {
+    .copyright{
+        margin-left: 100px;
+    }
+    .u{
+        font-size: 24px;
+    }
+    .scnd, .frth{
+        margin-left: 20px;
+    }
+    .le{
+        margin-left: 130px;
+    }
+    .b{
+        font-size: 13px;
+        margin-left: 47px;
+    }
+    .book2{
+        margin-left: 50px;
+    }
+    .book3{
+        margin-left: 66px;
+    }
+    .fa-solid{
+        margin-left: 190px;
+    }
+    .Right{
+        margin-left: 50px;
+    }
+    .fd{
+        width: 380px;
+    }
+    .fdh{
+        width: 380px;
+    }
+    .fdj{
+        width: 380px;
+    }
+    .AboutSmall{
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        width: 350px;
+    }
+    .textAbout{
+        margin-left: 40px;
+    }
+
+    .photoA{
+        width: 300px;
+        margin-left: 69px;
+    }
+    .book4{
+        margin-left: 110px;
+    }
+    .phot{
+        margin-left: 40px;
+    }
+}
+
+
+@media ( max-width: 376px) {
+    .frth{
+        margin-left: 100px;
+    }
+    .le{
+        margin-left: 105px;
+    }
+    .fd{
+        width: 350px;
+    }
+    .fgf{
+        margin-left: 11px;
+    }
+    .fdh{
+        width: 350px;
+    }
+    .fdj{
+        width: 350px;
+    }
+    .fgfg{
+        margin-left: 11px;
+    }
+    .AboutSmall{
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        width: 350px;
+    }
+    .textAbout{
+        margin-left: 20px;
+    }
+    .u{
+        margin-left: 11px;
+    }
+    .photoA{
+        width: 300px;
+        margin-left: 40px;
+    }
+    .phot{
+        margin-left: 40px;
+    }
+    .book4{
+        margin-left: 110px;
+    }
+    .fa-solid{
+        margin-left: 160px;
+    }
+    .ff {
+        margin-left: 130px;
+    }
+    .fkg {
+        margin-left: 130px;
+    }
+    .fkh{
+        margin-left: 120px;
+    }
+    .Right{
+        margin-left: 20px;
+    }
+    .scnd{
+        margin-left: -10px;
+    }
+.frth{
+    margin-left: 10px;
+}
+}
+
+@media (max-width: 415px) {
+    .AboutSmall{
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        width: 350px;
+    }
+    .textAbout{
+        margin-left: 40px;
+    }
+    .photoA{
+        width: 300px;
+        margin-left: 60px;
+    }
+    .phot{
+        margin-left: 50px;
+    }
+        .book4{
+        margin-left: 110px;
+    }
+    .fd{
+        width: 350px;
+        margin-left: 20px;
+    }
+    .fdh{
+        width: 350px;
+        margin-left: 20px;
+    }
+    .fdj{
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    .scnd{
+        margin-left: -10px;
+    }
+    .ScndQuote{
+        margin-left: 0;
+        }
+        .u{
+            font-size: 22px;
+        }
+}
+
+@media (max-width: 391px) {
+    .u{
+        margin-left: 3px;
+    }
+    .moven{
+        display: flex;
+        margin-left: 10px;
+    }
+}
+
+@media ( max-width: 361px) {
+    .not{
+        font-size: 22px ;
+    }
+    .fd{
+        width: 300px;
+    }
+    .fdh{
+        width: 300px;
+    }
+    .fdj{
+        width: 300px;
+    }
+    img{
+        margin-left: 0;
+        width: 270px;
+    }
+    .photoA{
+        margin-left: 21px;
+    }
+}
+
+@media ( max-width: 345px) {
+    .copyright{
+        margin-left: 40px;
+    }
+    img{
+        margin-left: 0;
+        width: 270px;
+    }
+    .photoA{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .book4{
+        margin-left: 20px;
+    }
+    .diff{
+        font-size: 24px;
+    }
+    .not{
+        font-size: 21px;
+    }
+    .u{
+        margin-left: 0px;
+    }
+    .fd{
+        width: 310px;
+    }
+    .fdh{
+        width: 310px;
+    }
+    .fdj{
+        width: 310px;
+    }
+}
